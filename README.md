@@ -12,19 +12,19 @@ This is a single-processor system with service time following a distribution who
 
 The main(...) function accepts 17 parameters from the calling environment (in the following order):
 1. length of simulation time in milliseconds. This should be passed directly as the time parameter to the simulate(...) function.
-2. average arrival rate of requests at the system λ;
-3. average service time Ts0 at S0;
-4. average service time Ts1 at S1;
-5. average service time Ts2 at S2;
-6. service time t1 at S3;
-7. probability p1 of service time t1 at S3;
-8. service time t2 at S3;
-9. probability p2 of service time t2 at S3;
-10. service time t3 at S3;
-11. probability p3 of service time t3 at S3;
-12. K2 maximum length of the queue expressed in number of requests at S2;
-13. routing probability p0,1 that a request will go from S0 to S1;
-14. routing probability p0,2 that a request will go from S0 to S2;
-15. routing probability p3,out that a request will exit the system from S3;
-16. routing probability p3,1 that a request will go from S3 back to S1;
-17. routing probability p3,2 that a request will go from S3 back to S2;
+2. average arrival rate of requests at the system λ
+3. average service time Ts0 at S0
+4. average service time Ts1 at S1
+5. average service time Ts2 at S2
+6. service time t1 at S3
+7. probability p1 of service time t1 at S3
+8. service time t2 at S3
+9. probability p2 of service time t2 at S3
+10. service time t3 at S3
+11. probability p3 of service time t3 at S3
+12. K2 maximum length of the queue expressed in number of requests at S2
+13. routing probability p0,1 that a request will go from S0 to S1
+14. routing probability p0,2 that a request will go from S0 to S2
+15. routing probability p3,out that a request will exit the system from S3
+16. routing probability p3,1 that a request will go from S3 back to S1
+17. routing probability p3,2 that a request will go from S3 back to S2
