@@ -11,7 +11,7 @@ S1 has a single infinite queue and two processors, each with average service tim
 This is a single-processor system with service time following a distribution whose PMF is given via 6 parameters t1, p1, t2, p2, t3, p3 where ti is the time it takes to process a request, and pi is the probability that it will take ti time for a request to be processed at S3. After a request completes at S3, it is released from the system with probability p3,out, it goes back to S1 with probability p3,1, or it goes back to S2 with probability p3,2. Assume all service times for S0 − S2, as well as inter-arrival times of requests from the outside at S0 are exponentially distributed.
 
 The main(...) function accepts 17 parameters from the calling environment (in the following order):
-1. length of simulation time in milliseconds. This should be passed directly as the time parameter to the simulate(...) function.
+1. length of simulation time in milliseconds
 2. average arrival rate of requests at the system λ
 3. average service time Ts0 at S0
 4. average service time Ts1 at S1
